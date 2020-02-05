@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+
+
+
+section {
+    width: 91%;
+    border-top: 1px dashed #808080;
+    margin: 15px auto;
+}
+
+figure {
+    float: left;
+}
+
+    figure img {
+        padding: 4px;
+        background: #808080;
+        border-radius: 15px;
+        box-shadow: #808080 5px 5px 10px;
+        -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s; /* 0.3 es lo q dura el efecto//ease es el efecto//0.1 es lo q tarda en arrancar el efecto*/
+    }
+
+        figure img:hover {
+            -webkit-transform: scale(1.5);
+        }
+
+figcaption {
+    font-family: Arial;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer {
+    clear: both;
+    padding-top: 100px;
+}
+
+    footer p {
+        font: 1.6em Georgia,"Times New Roman",Times,sherif;
+        color: #808080;
+        margin: 10px 8px;
+    }
